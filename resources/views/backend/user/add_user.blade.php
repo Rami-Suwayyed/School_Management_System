@@ -23,10 +23,10 @@
                                     <div class="form-group">
                                         <h5>User usertype <span class="text-danger">*</span></h5>
                                         <div class="controls">
-                                            <select name="usertype" id="role" required="" class="form-control">
-                                                <option value="" selected="" disabled="">Select usertype</option>
+                                            <select name="role"  id="role" required="" class="form-control">
+                                                <option value="" selected="" disabled="">Select Role</option>
                                                 <option value="Admin">Admin</option>
-                                                <option value="User">User</option>
+                                                <option value="Operator">Operator</option>
                                             </select>
                                         </div>
                                     </div>
@@ -47,13 +47,13 @@
                                         <input type="email" name="email" class="form-control" required="">  </div>
                                     </div>
                                 </div> <!-- End Col Md-6 -->
-                            <div class="col-md-6" >
+                            {{-- <div class="col-md-6" >
                                 <div class="form-group">
                                     <h5>password <span class="text-danger">*</span></h5>
                                     <div class="controls">
                                     <input type="password" name="password" class="form-control" required="">  </div>
                                 </div>
-                            </div><!-- End Col Md-6 -->
+                            </div><!-- End Col Md-6 --> --}}
                         </div> <!-- End Row -->
                         <div class="text-xs-right">
                         <input type="submit" class="btn btn-rounded btn-info mb-5" value="Submit">

@@ -22,12 +22,12 @@
                 <div class="row">
                     <div class="col-md-6" >
                         <div class="form-group">
-                            <h5>User usertype <span class="text-danger">*</span></h5>
+                            <h5>User Role <span class="text-danger">*</span></h5>
                             <div class="controls">
-                            <select name="usertype"  required="" class="form-control">
-                                <option value="" selected="" disabled="">Select usertype</option>
-                                <option value="Admin" {{ ($editData->usertype == "Admin" ? "selected": "") }}  >Admin</option>
-                                <option value="user" {{ ($editData->usertype == "user" ? "selected": "") }} >User</option>
+                            <select name="role"   required="" class="form-control">
+                                <option value="" selected="" disabled="">Select role</option>
+                                <option value="Admin" {{ ($editData->role == "Admin" ? "selected": "") }}  >Admin</option>
+                                <option value="Operator" {{ ($editData->role == "Operator" ? "selected": "") }} >Operator</option>
                                 </select>
                             </div>
                         </div>
